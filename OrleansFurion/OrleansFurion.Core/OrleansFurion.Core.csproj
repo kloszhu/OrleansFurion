@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>OrleansFurion.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Service\IStudentRepository.cs" />
+    <Compile Remove="Service\StudentRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="OrleansFurion.Core.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Furion" Version="2.19.0" />
+    <PackageReference Include="Furion.Extras.Authentication.JwtBearer" Version="2.19.0" />
+    <PackageReference Include="Furion.Extras.ObjectMapper.Mapster" Version="2.19.0" />
+    <PackageReference Include="Microsoft.Orleans.CodeGenerator.MSBuild" Version="3.5.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+	<ItemGroup>
+
+		<PackageReference Include="Microsoft.Orleans.Core" Version="3.5.1" />
+		<PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="3.5.1" />
+		<PackageReference Include="Microsoft.Orleans.OrleansProviders" Version="3.5.1" />
+		<PackageReference Include="Microsoft.Orleans.Runtime.Abstractions" Version="3.5.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\OrleansFurion.Entity\OrleansFurion.Entity.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Service\" />
+	</ItemGroup>
+	
+
+</Project>

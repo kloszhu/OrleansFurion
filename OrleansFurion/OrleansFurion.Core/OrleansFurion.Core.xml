@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrleansFurion.Core</name>
+    </assembly>
+    <members>
+        <member name="F:OrleansFurion.Core.Orleans.StudentManager.repository">
+            1.mongo
+        </member>
+        <member name="M:OrleansFurion.Core.Orleans.StudentManager.#ctor(Furion.DatabaseAccessor.IRepository{OrleansFurion.Core.Entities.Student})">
+            <summary>
+            构造注入
+            </summary>
+            <param name="repository"></param>
+        </member>
+    </members>
+</doc>

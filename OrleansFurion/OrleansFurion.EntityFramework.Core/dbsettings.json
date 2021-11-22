@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "OrleansFurion": "Data Source=./Furion.db"
+    //"TianYou": "data source=47.108.237.26;user id=doomshop926;password=doomshop926;database=doomshop926",
+    //"TianYou": "data source=47.108.237.26;user id=doomshop824;password=doomshop824;database=doomshop824",
+    //"TianYou": "data source=47.108.237.26;user id=myshop;password=myshop;database=myshop",
+    //"TianYou": "data source=47.108.237.26;user id=doomshop1;password=doomshop1;database=doomshop1",
+    //"Furion": "data source=121.4.203.2;user id=pear;password=pear;database=pear"
+    //"Furion": "data source=121.4.203.2;user id=doomshop1;password=doomshop1;database=doomshop1"
+    //"Furion": "data source=localhost;user id=root;password=123456;database=doomshop2"
+  }
+}
